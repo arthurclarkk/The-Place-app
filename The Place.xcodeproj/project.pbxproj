@@ -3,19 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E678F326FF9DB7FE8333DB1 /* Pods_The_Place.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0CA7489F189EBFD3759877 /* Pods_The_Place.framework */; };
+		6A27BB6623EC022E0015367B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27BB6523EC022E0015367B /* CollectionViewCell.swift */; };
+		6A27BB6A23ECEBCF0015367B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27BB6923ECEBCF0015367B /* TodayViewController.swift */; };
+		6A27BB6C23ECEBE30015367B /* MajorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27BB6B23ECEBE30015367B /* MajorViewController.swift */; };
+		6A27BB6E23ECEBF50015367B /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27BB6D23ECEBF50015367B /* InboxViewController.swift */; };
+		6A27BB7023ECEC040015367B /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27BB6F23ECEC040015367B /* NotesViewController.swift */; };
+		6A27BB7223EDD5E60015367B /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27BB7123EDD5E40015367B /* TaskViewController.swift */; };
+		6A2CDDCC23FAF3FE00AFD86C /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2CDDCA23FAF3FE00AFD86C /* ProjectsTableViewCell.swift */; };
+		6A2CDDCD23FAF3FE00AFD86C /* ProjectsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2CDDCB23FAF3FE00AFD86C /* ProjectsTableViewCell.xib */; };
+		6A2CDDD123FB244F00AFD86C /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2CDDD023FB244F00AFD86C /* ProjectModel.swift */; };
 		6A9C147D23DF3EB00091FD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C147C23DF3EB00091FD7E /* AppDelegate.swift */; };
 		6A9C147F23DF3EB00091FD7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C147E23DF3EB00091FD7E /* SceneDelegate.swift */; };
 		6A9C148123DF3EB00091FD7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C148023DF3EB00091FD7E /* ViewController.swift */; };
 		6A9C148423DF3EB00091FD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9C148223DF3EB00091FD7E /* Main.storyboard */; };
 		6A9C148623DF3EB30091FD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9C148523DF3EB30091FD7E /* Assets.xcassets */; };
 		6A9C148923DF3EB30091FD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9C148723DF3EB30091FD7E /* LaunchScreen.storyboard */; };
+		6A9C149123E5CF500091FD7E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C149023E5CF500091FD7E /* SignUpViewController.swift */; };
+		6A9C149323E5CF620091FD7E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C149223E5CF620091FD7E /* LoginViewController.swift */; };
+		6A9C149523E5CFC10091FD7E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C149423E5CFC10091FD7E /* MainTabBarViewController.swift */; };
+		6A9C149923E5DE700091FD7E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C149823E5DE700091FD7E /* Utilities.swift */; };
+		6A9C149B23E600560091FD7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A9C149A23E600550091FD7E /* GoogleService-Info.plist */; };
+		6A9C149D23E613ED0091FD7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C149C23E613ED0091FD7E /* HomeViewController.swift */; };
+		6A9C149F23E616260091FD7E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C149E23E616260091FD7E /* Constants.swift */; };
+		6ABDB0FA23F0A656007E4761 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABDB0F923F0A656007E4761 /* TaskTableViewCell.swift */; };
+		6ABDB0FC23F0BD98007E4761 /* DesignCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABDB0FB23F0BD97007E4761 /* DesignCardView.swift */; };
+		6ABDB10123FAB117007E4761 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABDB10023FAB116007E4761 /* ProjectsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A27BB6523EC022E0015367B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		6A27BB6923ECEBCF0015367B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		6A27BB6B23ECEBE30015367B /* MajorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorViewController.swift; sourceTree = "<group>"; };
+		6A27BB6D23ECEBF50015367B /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		6A27BB6F23ECEC040015367B /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		6A27BB7123EDD5E40015367B /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		6A2CDDCA23FAF3FE00AFD86C /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
+		6A2CDDCB23FAF3FE00AFD86C /* ProjectsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectsTableViewCell.xib; sourceTree = "<group>"; };
+		6A2CDDD023FB244F00AFD86C /* ProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
 		6A9C147923DF3EB00091FD7E /* The Place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9C147C23DF3EB00091FD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A9C147E23DF3EB00091FD7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +53,19 @@
 		6A9C148523DF3EB30091FD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9C148823DF3EB30091FD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A9C148A23DF3EB30091FD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9C149023E5CF500091FD7E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6A9C149223E5CF620091FD7E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6A9C149423E5CFC10091FD7E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		6A9C149823E5DE700091FD7E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		6A9C149A23E600550091FD7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A9C149C23E613ED0091FD7E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6A9C149E23E616260091FD7E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6ABDB0F923F0A656007E4761 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		6ABDB0FB23F0BD97007E4761 /* DesignCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCardView.swift; sourceTree = "<group>"; };
+		6ABDB10023FAB116007E4761 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		BAB33DEF7D7A7941D1BF7782 /* Pods-The Place.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Place.debug.xcconfig"; path = "Target Support Files/Pods-The Place/Pods-The Place.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D6EFF2EC8028786A94D2B7 /* Pods-The Place.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Place.release.xcconfig"; path = "Target Support Files/Pods-The Place/Pods-The Place.release.xcconfig"; sourceTree = "<group>"; };
+		FF0CA7489F189EBFD3759877 /* Pods_The_Place.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Place.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E678F326FF9DB7FE8333DB1 /* Pods_The_Place.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1679BD121DBC6B92F42D3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAB33DEF7D7A7941D1BF7782 /* Pods-The Place.debug.xcconfig */,
+				E9D6EFF2EC8028786A94D2B7 /* Pods-The Place.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CE443197CD519FED129FBB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0CA7489F189EBFD3759877 /* Pods_The_Place.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A9C147023DF3EB00091FD7E = {
 			isa = PBXGroup;
 			children = (
 				6A9C147B23DF3EB00091FD7E /* The Place */,
 				6A9C147A23DF3EB00091FD7E /* Products */,
+				2B1679BD121DBC6B92F42D3F /* Pods */,
+				4CE443197CD519FED129FBB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +120,64 @@
 			children = (
 				6A9C147C23DF3EB00091FD7E /* AppDelegate.swift */,
 				6A9C147E23DF3EB00091FD7E /* SceneDelegate.swift */,
-				6A9C148023DF3EB00091FD7E /* ViewController.swift */,
+				6A9C149723E5DE5C0091FD7E /* Helpers */,
+				6ABDB0FD23F1BC43007E4761 /* Projects */,
+				6A9C14A023E751D20091FD7E /* Tasks */,
+				6A9C149623E5CFC80091FD7E /* ViewControllers */,
 				6A9C148223DF3EB00091FD7E /* Main.storyboard */,
 				6A9C148523DF3EB30091FD7E /* Assets.xcassets */,
 				6A9C148723DF3EB30091FD7E /* LaunchScreen.storyboard */,
+				6A9C149A23E600550091FD7E /* GoogleService-Info.plist */,
 				6A9C148A23DF3EB30091FD7E /* Info.plist */,
 			);
 			path = "The Place";
+			sourceTree = "<group>";
+		};
+		6A9C149623E5CFC80091FD7E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A9C149423E5CFC10091FD7E /* MainTabBarViewController.swift */,
+				6A9C149223E5CF620091FD7E /* LoginViewController.swift */,
+				6A9C149023E5CF500091FD7E /* SignUpViewController.swift */,
+				6A9C148023DF3EB00091FD7E /* ViewController.swift */,
+				6A9C149C23E613ED0091FD7E /* HomeViewController.swift */,
+				6A27BB7123EDD5E40015367B /* TaskViewController.swift */,
+				6A27BB6923ECEBCF0015367B /* TodayViewController.swift */,
+				6A27BB6B23ECEBE30015367B /* MajorViewController.swift */,
+				6A27BB6D23ECEBF50015367B /* InboxViewController.swift */,
+				6A27BB6F23ECEC040015367B /* NotesViewController.swift */,
+				6ABDB10023FAB116007E4761 /* ProjectsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6A9C149723E5DE5C0091FD7E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6A9C149823E5DE700091FD7E /* Utilities.swift */,
+				6A9C149E23E616260091FD7E /* Constants.swift */,
+				6ABDB0FB23F0BD97007E4761 /* DesignCardView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6A9C14A023E751D20091FD7E /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				6A27BB6523EC022E0015367B /* CollectionViewCell.swift */,
+				6ABDB0F923F0A656007E4761 /* TaskTableViewCell.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		6ABDB0FD23F1BC43007E4761 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				6A2CDDCA23FAF3FE00AFD86C /* ProjectsTableViewCell.swift */,
+				6A2CDDCB23FAF3FE00AFD86C /* ProjectsTableViewCell.xib */,
+				6A2CDDD023FB244F00AFD86C /* ProjectModel.swift */,
+			);
+			path = Projects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A9C148D23DF3EB30091FD7E /* Build configuration list for PBXNativeTarget "The Place" */;
 			buildPhases = (
+				8C8ADBE24B94E89EE2885903 /* [CP] Check Pods Manifest.lock */,
 				6A9C147523DF3EB00091FD7E /* Sources */,
 				6A9C147623DF3EB00091FD7E /* Frameworks */,
 				6A9C147723DF3EB00091FD7E /* Resources */,
+				C22FC4443109A3832DDAF1E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +241,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A9C148923DF3EB30091FD7E /* LaunchScreen.storyboard in Resources */,
+				6A9C149B23E600560091FD7E /* GoogleService-Info.plist in Resources */,
 				6A9C148623DF3EB30091FD7E /* Assets.xcassets in Resources */,
 				6A9C148423DF3EB00091FD7E /* Main.storyboard in Resources */,
+				6A2CDDCD23FAF3FE00AFD86C /* ProjectsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C8ADBE24B94E89EE2885903 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Place-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C22FC4443109A3832DDAF1E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Place/Pods-The Place-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Place/Pods-The Place-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Place/Pods-The Place-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A9C147523DF3EB00091FD7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A27BB6623EC022E0015367B /* CollectionViewCell.swift in Sources */,
+				6ABDB10123FAB117007E4761 /* ProjectsViewController.swift in Sources */,
+				6A2CDDCC23FAF3FE00AFD86C /* ProjectsTableViewCell.swift in Sources */,
 				6A9C148123DF3EB00091FD7E /* ViewController.swift in Sources */,
+				6A27BB6C23ECEBE30015367B /* MajorViewController.swift in Sources */,
+				6A2CDDD123FB244F00AFD86C /* ProjectModel.swift in Sources */,
 				6A9C147D23DF3EB00091FD7E /* AppDelegate.swift in Sources */,
+				6A9C149923E5DE700091FD7E /* Utilities.swift in Sources */,
+				6A9C149D23E613ED0091FD7E /* HomeViewController.swift in Sources */,
+				6ABDB0FC23F0BD98007E4761 /* DesignCardView.swift in Sources */,
+				6A27BB7223EDD5E60015367B /* TaskViewController.swift in Sources */,
+				6A9C149123E5CF500091FD7E /* SignUpViewController.swift in Sources */,
+				6ABDB0FA23F0A656007E4761 /* TaskTableViewCell.swift in Sources */,
+				6A27BB6E23ECEBF50015367B /* InboxViewController.swift in Sources */,
+				6A9C149523E5CFC10091FD7E /* MainTabBarViewController.swift in Sources */,
+				6A9C149323E5CF620091FD7E /* LoginViewController.swift in Sources */,
+				6A27BB6A23ECEBCF0015367B /* TodayViewController.swift in Sources */,
+				6A27BB7023ECEC040015367B /* NotesViewController.swift in Sources */,
 				6A9C147F23DF3EB00091FD7E /* SceneDelegate.swift in Sources */,
+				6A9C149F23E616260091FD7E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +458,7 @@
 		};
 		6A9C148E23DF3EB30091FD7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB33DEF7D7A7941D1BF7782 /* Pods-The Place.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +476,7 @@
 		};
 		6A9C148F23DF3EB30091FD7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D6EFF2EC8028786A94D2B7 /* Pods-The Place.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
